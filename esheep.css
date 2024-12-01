@@ -1,0 +1,195 @@
+html 
+{
+  height:100%;
+}
+
+body 
+{
+  text-align:center;
+  height:100%;
+  margin:0px;
+  background-image:url('esheepbackground.jpg');
+  background-size: cover;
+  background-position:bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:#ffff88;
+}
+
+h1 
+{
+  margin:0 auto;color:#0000aa;
+}
+
+h2 
+{
+  margin:0 auto;color:#0000aa;
+}
+
+h3 
+{
+  margin:0 auto;color:#0000aa;
+}
+
+h4 
+{
+  margin:0 auto;color:#0000aa;
+}
+
+a 
+{
+  color:#aa0000;
+}
+
+td, th 
+{ 
+  border: 1px solid gray;
+}
+
+.copyright 
+{
+  position:fixed;
+  bottom:0px;
+  height:30px;
+  width:50%;
+  text-align:center;
+  color:white;
+  margin-left:25%;
+  border-radius:10px;
+  padding-top:10px;
+  background-color:#000055;
+}
+
+.floatingtable 
+{
+  position:fixed;
+  right:5px;
+  top:100px;
+  width:200px;
+  color:white;
+  border-width:3px;
+  border-style:ridge;
+  border-color:white;
+  line-height:25px;
+}
+
+.sheep 
+{
+  position:fixed;
+  bottom:0px;
+  height:40px;
+  width:40px;
+  left:0px;
+}
+
+div.window
+{
+  background-color:rgba(170,200,255,0.5);
+  border-radius:10px;
+  border-color:gray;
+  border-style:inset;
+  border-width:1px;
+  box-shadow: 1px 1px 10px 3px #000044;
+  padding-left:5px;
+  padding-right:6px;
+  padding-bottom:10px;
+  padding-top:25px;
+  text-align:left;
+  cursor:move;
+  z-index:90;
+}
+
+b.windowtitle
+{
+  position:relative;
+  color:white;
+  top:-20px;
+  margin-left:10px;
+  font-weight:bolder;
+  font-family:cursive;
+  text-shadow: 0px 0px 2px #000000;
+}
+
+a.windowbuttonx
+{
+  float:right;
+  width:34px;
+  height:20px;
+  background:linear-gradient(0deg, #eeaaaa, #ee0000, #ee8888);
+  color:white;
+  text-shadow: 0px 0px 3px #000000;
+  position:relative;
+  text-decoration:none;
+  text-align:center;
+  font-size:120%;
+  font-family:arial;
+  border-bottom:5px;
+  line-height:16px;
+  top:-24px;
+  cursor:pointer;
+  border-radius:5px;
+  border-color:#550000;
+  border-width:0.5px;
+  border-style:inset;
+}
+
+a.windowbuttonm
+{
+  float:right;
+  width:34px;
+  height:20px;
+  background:linear-gradient(0deg, #aaaaee, #0000ee, #8888ee);
+  color:white;
+  text-shadow: 0px 0px 3px #000000;
+  position:relative;
+  text-decoration:none;
+  text-align:center;
+  font-size:120%;
+  font-family:arial;
+  border-bottom:5px;
+  line-height:16px;
+  top:-24px;
+  cursor:pointer;
+  border-radius:5px;
+  border-color:#550000;
+  border-width:0.5px;
+  border-style:inset;
+}
+
+div.window div
+{
+  background:linear-gradient(145deg, #eeffff, #ffeeff);
+  width:100%;
+  height:100%;
+  position:relative;
+  top:-20px;
+  border-radius:4px;
+  border-color:gray;
+  border-style:outset;
+  border-width:1px;
+  opacity:0.8;
+  overflow:auto;
+  color:black;
+  cursor:default;
+  text-shadow: 1px 1px 2px #ffffff;
+  text-align:center;
+  z-index: inherit;
+}
+
+
+div.icon
+{
+  background-color:rgba(100,100,255,0.8);
+  border-radius:20px;
+  border-color:gray;
+  border-style:inset;
+  border-width:1px;
+  box-shadow: 1px 1px 10px 3px #000044;
+  position:fixed;
+  bottom:20px;
+  left:10px;
+  cursor:pointer;
+  z-index:5000;
+  width:64px;
+  height:64px;
+}
